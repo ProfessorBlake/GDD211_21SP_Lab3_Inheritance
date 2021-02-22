@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
 	private void Start()
 	{
 		playerInventory = new Inventory();
-		playerInventory.Start();
 		LogInventory();
 	}
 

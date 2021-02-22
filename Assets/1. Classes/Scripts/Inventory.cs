@@ -11,14 +11,4 @@ public class Inventory
 		Gold = 5;
 		Silver = 10;
 	}
-
-	public void Start()
-	{
-		Debug.Log("Start");
-	}
-
-	public void Update()
-	{
-		Debug.Log("Update");
-	}
 }
