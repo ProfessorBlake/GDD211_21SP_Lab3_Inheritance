@@ -251,8 +251,8 @@ Camera:
   m_GameObject: {fileID: 941054721}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.3207547, g: 0.16794232, b: 0.18256724, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -309,6 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1201721383}
   - component: {fileID: 1201721384}
+  - component: {fileID: 1201721385}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -337,7 +338,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201721382}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9771d3625128daa4180330f415c02154, type: 3}
   m_Name: 
@@ -345,3 +346,16 @@ MonoBehaviour:
   Passwords: []
   TotalPasswords: 10000
   PasswordLength: 3
+--- !u!114 &1201721385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201721382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7b190ca3deb96448b276462359f0e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Students: []
